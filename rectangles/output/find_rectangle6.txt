@@ -1,0 +1,63 @@
+(400, 400, 3)
+
+21600
+
+21600
+Iterations: 2
+Iterations: 3
+Iterations: 4
+Iterations: 5
+angles coordinates
+[(252, 346), (252, 47), (53, 346), (53, 47)]
+
+[(252, 346), (252, 47), (53, 346), (53, 47)]
+
+[(252, 346), (252, 47), (53, 346), (53, 47)]
+
+[(252, 346), (252, 47), (53, 346), (53, 47)]
+
+(319, 319, 3)
+
+80161
+
+80161
+
+graph is not consistent
+
+number of isolated subgraphs
+3
+
+Iterations: 2
+Iterations: 3
+Iterations: 4
+Iterations: 5
+angles coordinates
+
+[(232, 67), (73, 186), (73, 67), (232, 186)]
+
+[(232, 67), (73, 186), (73, 67), (232, 186)]
+
+[(232, 67), (73, 186), (73, 67), (232, 186)]
+
+[(232, 67), (73, 186), (73, 67), (232, 186)]
+
+Iterations: 2
+Iterations: 3
+Iterations: 4
+Iterations: 5
+angles coordinates
+
+[(232, 207), (73, 326), (73, 207), (232, 326)]
+
+[(232, 207), (73, 326), (73, 207), (232, 326)]
+
+[(232, 207), (73, 326), (73, 207), (232, 326)]
+
+[(232, 207), (73, 326), (73, 207), (232, 326)]
+
+Iterations: 2
+Iterations: 3
+Iterations: 4
+Iterations: 5
+angles coordinates
+

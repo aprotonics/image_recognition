@@ -1,0 +1,63 @@
+(250, 250, 3)
+
+5135
+
+5135
+Iterations: 2
+Iterations: 3
+Iterations: 4
+Iterations: 5
+angles coordinates
+[(129, 76), (129, 196), (53, 76), (53, 196)]
+
+[(129, 76), (129, 196), (53, 76), (53, 196)]
+
+[(129, 76), (129, 196), (53, 76), (53, 196)]
+
+[(129, 76), (129, 196), (53, 76), (53, 196)]
+
+(140, 140, 3)
+
+14465
+
+14465
+
+graph is not consistent
+
+number of isolated subgraphs
+3
+
+Iterations: 2
+Iterations: 3
+Iterations: 4
+Iterations: 5
+angles coordinates
+
+[(66, 89), (116, 89), (66, 129), (116, 129)]
+
+[(66, 89), (116, 89), (66, 129), (116, 129)]
+
+[(66, 89), (116, 89), (66, 129), (116, 129)]
+
+[(66, 89), (116, 89), (66, 129), (116, 129)]
+
+Iterations: 2
+Iterations: 3
+Iterations: 4
+Iterations: 5
+angles coordinates
+
+[(116, 143), (66, 143), (116, 183), (66, 183)]
+
+[(116, 143), (66, 143), (116, 183), (66, 183)]
+
+[(116, 143), (66, 143), (116, 183), (66, 183)]
+
+[(116, 143), (66, 143), (116, 183), (66, 183)]
+
+Iterations: 2
+Iterations: 3
+Iterations: 4
+Iterations: 5
+angles coordinates
+
