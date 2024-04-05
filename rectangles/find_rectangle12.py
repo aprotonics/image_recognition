@@ -1,7 +1,6 @@
 import os
 import importlib
 import cv2
-import numpy
 
 
 class Loader():
@@ -103,6 +102,7 @@ find_inner_angles_coordinates = utils.find_inner_angles_coordinates
 find_nearest_point_to_point = utils.find_nearest_point_to_point
 find_coordinates_to_cut = utils.find_coordinates_to_cut
 modify_shape = utils.modify_shape
+create_img_array = utils.create_img_array
 modify_src = utils.modify_src
 
 
@@ -279,7 +279,7 @@ for i in range(length(rectangles_areas_list)):
                                     (coordinates_to_cut[1][0])-10:(coordinates_to_cut[3][0]+10)]
 
         modified_img2_shape = get_maximum(modified_img2.shape[0], modified_img2.shape[1])
-        modified_img2 = numpy.zeros((modified_img2_shape, modified_img2_shape, 3), numpy.uint8)
+        modified_img2 = create_img_array(modified_img2_shape)
 
         coordinate1 = (coordinates_to_cut[3][1]+10) - (coordinates_to_cut[1][1]-10)
         coordinate2 = (coordinates_to_cut[3][0]+10) - (coordinates_to_cut[1][0]-10)

@@ -1417,6 +1417,13 @@ def modify_shape(img):
 
     return modified_img
 
+def create_img_array(img_shape):
+    img_shape = img_shape
+
+    img_array = numpy.zeros((img_shape, img_shape, 3), numpy.uint8)
+
+    return img_array
+
 def modify_src(src):
     src = src
     
