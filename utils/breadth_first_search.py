@@ -88,6 +88,35 @@ def breadth_first_search2(graph, start, img, quality):
     
     return graph_area
 
+async def breadth_first_search2_async(graph, start, img, quality):
+    graph = graph
+    start = start
+    img = img
+    quality = quality
+
+    graph_area = []
+    frontier = Queue()
+    frontier.put(start)
+    visited = {}
+    visited[start] = True
+    
+    while not frontier.empty():
+        current = frontier.get()
+
+        (x, y) = current
+        if check_not_in_bounds((y, x), img):
+            if img[y, x, 0] < 100 - quality and\
+                img[y, x, 1] < 100 - quality and\
+                img[y, x, 2] < 100 - quality:
+                graph_area.append(current)
+
+        for next in graph.nears(current):
+            if next not in visited:
+                frontier.put(next)
+                visited[next] = True
+    
+    return graph_area
+
 def breadth_first_search3(graph, start):
     graph = graph
     start = start
@@ -207,9 +236,6 @@ def breadth_first_search6(graph, start, img, quality):
 
     return graph_area
 
-
-
-
 def heuristic(height_to_width_ratio, line):
     
     vector_distance = abs(abs(line[1][1] - line[0][1]) - abs(line[1][0] - line[0][0]))
@@ -223,7 +249,6 @@ def heuristic(height_to_width_ratio, line):
         value = height_to_width_ratio[0] * height_to_width_ratio[1]
 
     return vector_distance * value
-
 
 def check_not_in_bounds(coordinates, img):
     (x, y) = coordinates
